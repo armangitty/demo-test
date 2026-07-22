@@ -1,0 +1,7 @@
+{
+  "name": "ninasmassageobeauty",
+  "private": true,
+  "scripts": {
+    "start": "bash scripts/dev.sh"
+  }
+}

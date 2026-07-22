@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priser — Nina's Massage & Beauty</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav__logo">
+      <div class="nav__logo-icon">✿</div>
+      <div class="nav__logo-text">
+        Nina's Massage & Beauty
+        <span>Göteborg</span>
+      </div>
+    </a>
+    <button class="nav__toggle" aria-label="Meny">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links">
+      <li><a href="index.html">Hem</a></li>
+      <li><a href="om-oss.html">Om oss</a></li>
+      <li><a href="priser.html" class="active">Priser</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a href="fotogalleri.html">Fotogalleri</a></li>
+      <li><a href="vara-behandlingar.html">Våra behandlingar</a></li>
+      <li class="nav__dropdown">
+        <a href="#">Mer ▾</a>
+        <ul class="nav__dropdown-menu">
+          <li><a href="jobba-hos-oss.html">Jobba hos oss</a></li>
+          <li><a href="villkor.html">Allmänna villkor för behandlingar</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero__bg">
+      <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=1920&q=80" alt="Massage">
+    </div>
+    <div class="page-hero__overlay"></div>
+    <div class="page-hero__content">
+      <h1 class="page-hero__title"><em>Priser</em></h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section__header reveal">
+      <p class="section__eyebrow">Behandlingar</p>
+      <h2 class="section__title">Välj mellan olika behandlingar och tider</h2>
+    </div>
+
+    <div class="reveal" style="overflow-x: auto;">
+      <table class="pricing-table">
+        <thead>
+          <tr>
+            <th>Behandling</th>
+            <th>30 min</th>
+            <th>60 min</th>
+            <th>90 min</th>
+            <th>120 min</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="treatment-name">Thaimassage</div>
+              <div class="treatment-desc">Helkroppsmassage (utan olja)</div>
+            </td>
+            <td class="price">450 kr</td>
+            <td class="price">700 kr</td>
+            <td class="price">900 kr</td>
+            <td class="price">1 200 kr</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="treatment-name">Oljemassage</div>
+              <div class="treatment-desc">Helkroppsmassage (med olja)</div>
+            </td>
+            <td class="price">450 kr</td>
+            <td class="price">700 kr</td>
+            <td class="price">900 kr</td>
+            <td class="price">1 200 kr</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="treatment-name">Blandad Thai- och Oljemassage</div>
+              <div class="treatment-desc">Mix av Thai, Klassisk och Olja</div>
+            </td>
+            <td class="price">450 kr</td>
+            <td class="price">700 kr</td>
+            <td class="price">900 kr</td>
+            <td class="price">1 200 kr</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="treatment-name">Aromaterapi massage</div>
+              <div class="treatment-desc">Helkroppsmassage med aromatiska oljor</div>
+            </td>
+            <td class="price empty">—</td>
+            <td class="price">750 kr</td>
+            <td class="price">950 kr</td>
+            <td class="price">1 250 kr</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="treatment-name">Massage Rygg special</div>
+              <div class="treatment-desc">Fokus på nacke, axlar och rygg</div>
+            </td>
+            <td class="price">500 kr</td>
+            <td class="price">750 kr</td>
+            <td class="price">950 kr</td>
+            <td class="price empty">—</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="treatment-name">Barnmassage</div>
+              <div class="treatment-desc">Personanpassad helkroppsmassage med olja</div>
+            </td>
+            <td class="price">300 kr</td>
+            <td class="price">400 kr</td>
+            <td class="price empty">—</td>
+            <td class="price empty">—</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="treatment-name">Herbal-herb massage</div>
+              <div class="treatment-desc">Massage med kompress fyllda med växtbaserade örter</div>
+            </td>
+            <td class="price empty">—</td>
+            <td class="price">1 000 kr</td>
+            <td class="price">1 300 kr</td>
+            <td class="price empty">—</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="treatment-name">Hot stone massage</div>
+              <div class="treatment-desc">Helkroppsmassage med varma stenar</div>
+            </td>
+            <td class="price empty">—</td>
+            <td class="price">1 100 kr</td>
+            <td class="price">1 300 kr</td>
+            <td class="price empty">—</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="treatment-name">Hot stone Slimmassage</div>
+              <div class="treatment-desc">Varma stenar och behandling med slimolja</div>
+            </td>
+            <td class="price empty">—</td>
+            <td class="price">1 200 kr</td>
+            <td class="price">1 400 kr</td>
+            <td class="price empty">—</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="treatment-name">Ansiktsmassage med/utan spa</div>
+            </td>
+            <td class="price">400 kr</td>
+            <td class="price empty">—</td>
+            <td class="price empty">—</td>
+            <td class="price empty">—</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="treatment-name">Ansiktsmassage med Anti-age</div>
+              <div class="treatment-desc">Peeling, massage samt Anti-age behandling med mask</div>
+            </td>
+            <td class="price empty">—</td>
+            <td class="price">700 kr</td>
+            <td class="price empty">—</td>
+            <td class="price empty">—</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="treatment-name">Fotmassage med/utan spa</div>
+            </td>
+            <td class="price empty">—</td>
+            <td class="price">600 kr</td>
+            <td class="price empty">—</td>
+            <td class="price empty">—</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="treatment-name">Fyra Hands massage</div>
+              <div class="treatment-desc">2 massörer masserar varsin halva av kroppen samtidigt</div>
+            </td>
+            <td class="price empty">—</td>
+            <td class="price">1 200 kr</td>
+            <td class="price empty">—</td>
+            <td class="price empty">—</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="pricing-note reveal">
+      <p><strong>Presentkort:</strong> 10% rabatt vid köp av 5 timmar eller mer.</p>
+      <p><strong>Parmassage på bröllopsdagen eller massage på födelsedagen:</strong> Vid tidsbokning i förväg bjuder salongen på en fin överraskning.</p>
+      <p>Alla priser är angivna inkl. moms.</p>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="cta-section__content reveal">
+      <h2 class="cta-section__title">Boka din massage</h2>
+      <a href="kontakt.html" class="hero__cta">Kontakta oss →</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__brand">Nina's Massage & Beauty</div>
+    <p class="footer__info">Kaggeledstorget 1 · 416 74 Göteborg · Tel: 031-15 22 10</p>
+    <ul class="footer__links">
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a href="priser.html">Priser</a></li>
+      <li><a href="villkor.html">Villkor</a></li>
+    </ul>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt — Nina's Massage & Beauty</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav__logo">
+      <div class="nav__logo-icon">✿</div>
+      <div class="nav__logo-text">
+        Nina's Massage & Beauty
+        <span>Göteborg</span>
+      </div>
+    </a>
+    <button class="nav__toggle" aria-label="Meny">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links">
+      <li><a href="index.html">Hem</a></li>
+      <li><a href="om-oss.html">Om oss</a></li>
+      <li><a href="priser.html">Priser</a></li>
+      <li><a href="kontakt.html" class="active">Kontakt</a></li>
+      <li><a href="fotogalleri.html">Fotogalleri</a></li>
+      <li><a href="vara-behandlingar.html">Våra behandlingar</a></li>
+      <li class="nav__dropdown">
+        <a href="#">Mer ▾</a>
+        <ul class="nav__dropdown-menu">
+          <li><a href="jobba-hos-oss.html">Jobba hos oss</a></li>
+          <li><a href="villkor.html">Allmänna villkor för behandlingar</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero__bg">
+      <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=1920&q=80" alt="Kontakt">
+    </div>
+    <div class="page-hero__overlay"></div>
+    <div class="page-hero__content">
+      <h1 class="page-hero__title"><em>Kontakt</em> & Bokning</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="contact-info__item">
+          <p class="contact-info__label">Adress</p>
+          <p class="contact-info__value">Kaggeledstorget 1<br>416 74 Göteborg</p>
+        </div>
+        <div class="contact-info__item">
+          <p class="contact-info__label">Telefon</p>
+          <p class="contact-info__value">
+            <a href="tel:031152210">031-15 22 10</a><br>
+            <a href="tel:0707326309">0707-32 63 09</a>
+          </p>
+        </div>
+        <div class="contact-info__item">
+          <p class="contact-info__label">E-post</p>
+          <p class="contact-info__value">
+            <a href="mailto:info@ninasmassageobeauty.se">info@ninasmassageobeauty.se</a>
+          </p>
+        </div>
+        <div class="contact-info__item">
+          <p class="contact-info__label">Hitta hit</p>
+          <p class="contact-info__value" style="font-size: 1rem; font-family: var(--font-sans); color: var(--text-muted);">
+            Spårvagnar 1 och 5 till/från Östra sjukhuset stannar utanför torget.
+          </p>
+        </div>
+      </div>
+      <div class="contact-map reveal">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2132.5!2d12.02!3d57.72!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zS2FnZ2VsZWRzdG9yZ2V0IDE!5e0!3m2!1ssv!2sse!4v1"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Karta till Nina's Massage & Beauty">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark">
+    <div class="section__header reveal">
+      <p class="section__eyebrow">Besökstider</p>
+      <h2 class="section__title">Öppettider</h2>
+    </div>
+    <div class="hours-grid reveal">
+      <div class="hours-block">
+        <h3>Ordinarie tider</h3>
+        <p>Mån – Fre: 10:00 – 20:00</p>
+        <p>Lör – Sön, Helger: 12:00 – 20:00</p>
+      </div>
+      <div class="hours-block">
+        <h3>Storhelger (stängt)</h3>
+        <p>Påskaften, Påskdagen och annandagpåsk</p>
+        <p>Första maj</p>
+        <p>Sveriges nationaldag 6 juni</p>
+        <p>Midsommarafton, Midsommardagen samt söndag 21 juni 2026</p>
+        <p>Julafton, Juldagen, Annandag jul, Nyårsafton och Nyårsdagen</p>
+        <p style="margin-top: 1rem; color: var(--gold);">För övrigt gäller ordinarie öppettider.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="cta-section__content reveal">
+      <h2 class="cta-section__title">Varmt välkomna</h2>
+      <p class="cta-section__text">Tveka inte att kontakta oss om du har några frågor.</p>
+      <a href="tel:031152210" class="hero__cta">Ring oss →</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__brand">Nina's Massage & Beauty</div>
+    <p class="footer__info">Kaggeledstorget 1 · 416 74 Göteborg · Tel: 031-15 22 10</p>
+    <ul class="footer__links">
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a href="priser.html">Priser</a></li>
+      <li><a href="villkor.html">Villkor</a></li>
+    </ul>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
